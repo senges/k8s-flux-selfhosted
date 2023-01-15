@@ -13,4 +13,8 @@ spec:
     name: flux-system
     namespace: flux-system
   targetNamespace: focalboard
-
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: focalboard
